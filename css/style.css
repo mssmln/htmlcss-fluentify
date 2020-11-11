@@ -24,7 +24,7 @@ li, a{
   text-decoration: none;
   list-style: none;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   text-transform: uppercase;
   padding: 7px;
 }
@@ -36,6 +36,18 @@ nav, ul, li{
 .colourless-bottom{
   margin: 2px solid white;
   border-radius: 5px;
+}
+
+.larger-green-bottom{
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.green-bottom{
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 
@@ -125,9 +137,35 @@ header{
 .headline-cta h1{
   font-size: 50px;
   color: white;
+  margin-bottom: 40px;
 }
 
 
 
 
 /* /HEADLINE AND CTA */
+
+
+
+
+/* GREY STRIPE */
+
+div.grey-stripe{
+  text-align: center;
+  background-color: lightgrey;
+  padding: 40px;
+}
+
+
+.grey-stripe h4{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.grey-stripe p{
+  font-size: 20px;
+  color: #38311b;
+}
+
+
+/* /GREY STRIPE */
