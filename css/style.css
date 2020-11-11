@@ -1,0 +1,94 @@
+/* GENERAL RULES */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+
+/* /GENERAL RULES */
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+  width: 85%;
+  height: 600px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+
+/* NAVIGATION BAR */
+
+.header-navigation-bar{
+  background-color: lightblue;
+  height: 20%;
+}
+
+.header-navigation-bar .logo{
+  background-color: green;
+  height: 100%;
+  width: 20%;
+}
+
+
+
+
+
+/* NAVIGATION BAR */
+
+
+
+
+
+/* header{
+  height: 550px;
+  background-color: red;
+}
+
+
+main{
+  height: 700px;
+  background-color: blue;
+}
+
+.header-container{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+
+
+.header-nav{
+  height: 20%;
+  background-color: yellow;
+}
+
+.jumbotron{
+  height: 80%;
+  background-color: lightblue;
+}
+footer{
+} */
