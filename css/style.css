@@ -33,9 +33,25 @@ body{
 .container{
   width: 85%;
   height: 600px;
-  background-color: blue;
+  background-color: blsssue;
   margin: 0 auto;
 }
+
+/* HEADER BACKGROUND */
+
+header{
+  background-image: url('../img/background-header.png');
+  background-color: rgb(8, 55, 116);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 115% 150%;
+}
+
+
+/* /HEADER BACKGROUND */
+
+
+
 
 
 /* NAVIGATION BAR */
@@ -51,11 +67,23 @@ body{
   width: 20%;
 }
 
+.header-navigation-bar .left-nav{
+  background-color: yellow;
+  width: 50%;
+  height: 100%;
+}
+
+.header-navigation-bar .right-nav{
+  background-color: pink;
+  height: 100%;
+  width: 30%;
+}
 
 
 
 
-/* NAVIGATION BAR */
+
+/* /NAVIGATION BAR */
 
 
 
