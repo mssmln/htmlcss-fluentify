@@ -20,6 +20,25 @@
 }
 
 
+li, a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+nav, ul, li{
+  height: 100%;
+}
+
+.colourless-bottom{
+  margin: 2px solid white;
+  border-radius: 5px;
+}
+
+
 /* /GENERAL RULES */
 
 
@@ -35,6 +54,7 @@ body{
   height: 600px;
   background-color: blsssue;
   margin: 0 auto;
+  position: relative;
 }
 
 /* HEADER BACKGROUND */
@@ -57,28 +77,30 @@ header{
 /* NAVIGATION BAR */
 
 .header-navigation-bar{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   height: 20%;
 }
 
 .header-navigation-bar .logo{
-  background-color: green;
+  /* background-color: green; */
   height: 100%;
   width: 20%;
 }
 
+.header-navigation-bar .logo img{}
+
+
 .header-navigation-bar .left-nav{
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 50%;
   height: 100%;
 }
 
 .header-navigation-bar .right-nav{
-  background-color: pink;
+  /* background-color: pink; */
   height: 100%;
   width: 30%;
 }
-
 
 
 
@@ -88,35 +110,24 @@ header{
 
 
 
-
-/* header{
-  height: 550px;
-  background-color: red;
-}
+/* HEADLINE AND CTA */
 
 
-main{
-  height: 700px;
-  background-color: blue;
-}
-
-.header-container{
-  width: 80%;
-  height: 100%;
-  background-color: white;
-  margin: 0 auto;
-}
-
-
-
-.header-nav{
-  height: 20%;
-  background-color: yellow;
-}
 
 .jumbotron{
-  height: 80%;
-  background-color: lightblue;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
-footer{
-} */
+
+
+.headline-cta h1{
+  font-size: 50px;
+  color: white;
+}
+
+
+
+
+/* /HEADLINE AND CTA */
